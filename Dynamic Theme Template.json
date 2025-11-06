@@ -1,20 +1,20 @@
 {
     "name": "FOSTER BI SERVICES",
     "dataColors": [
-        "#004081",
-        "#F1A800",
-        "#0074D9",
-        "#FF6F00",
-        "#00BFAE",
-        "#D15B00",
-        "#00B5E2",
-        "#5C4033",
-		"#FFC7CE",
-		"#C6EFCE",
-		"#FFEB9C",
+		"#004081",
+		"#F1A800",
+		"#0074D9",
+		"#FF6F00",
+		"#00BFAE",
+		"#D15B00",
+		"#00B5E2",
+		"#5C4033",
 		"#9C0006",
 		"#006100",
 		"#9C6500", 
+		"#FFC7CE",
+		"#C6EFCE",
+		"#FFEB9C",	
 		"#999999",
 		"#e6e6e6", 
 		"#5f6b6d"
@@ -126,6 +126,7 @@
                         "radius": 1
                     }
                 ],
+				
                 "dropShadow": [
                     {
                         "color": {
@@ -182,6 +183,57 @@
                         "dataLabelFontSize": 10,
                         "dataLabelDisplayUnits": 2,
 						"show": true
+                    }
+                ],
+				"legend": [
+					{
+						"show": false,
+						"position": "Top",
+						"showTitle": false,
+						"labelColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0.60
+                                        }
+                                    }
+                                }
+                            }
+							}
+						}
+				],   
+				"categoryAxis": [
+                    {
+                        "showAxisTitle": false
+                    }
+                ],				
+				"valueAxis": [
+                    {
+                        "showAxisTitle": false,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": -0.1
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "gridlineShow": true,
+                        "gridlineStyle": "dotted",
+                        "show": false,
+                        "labelDisplayUnits": 1,
+                        "gridlineDashCap": "round"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true
                     }
                 ],
                 "displayArea": [
@@ -263,7 +315,7 @@
                                     "expr": {
                                         "ThemeDataColor": {
                                             "ColorId": 2,
-                                            "Percent": 0.5
+                                            "Percent": 0.75
                                         }
                                     }
                                 }
@@ -2770,6 +2822,239 @@
                 ]
             }
         },	
+		"hundredPercentStackedBarChart": {
+            "*": {
+                "categoryAxis": [
+                    {
+                        "showAxisTitle": false
+                    }
+                ],
+				"title": [
+                    {
+                        "text": "100% stacked Bar Chart"
+                    }
+                ],
+				"legend": [
+					{
+						"show": false,
+						"position": "Top",
+						"showTitle": false,
+						"labelColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0.60
+                                        }
+                                    }
+                                }
+                            }
+							}
+						}
+				],
+                "valueAxis": [
+                    {
+                        "showAxisTitle": false,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": -0.1
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "gridlineShow": true,
+                        "gridlineStyle": "dotted",
+                        "show": false,
+                        "labelDisplayUnits": 1,
+                        "gridlineDashCap": "round"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        },
+        "hundredPercentStackedColumnChart": {
+            "*": {
+                "categoryAxis": [
+                    {
+                        "showAxisTitle": false
+                    }
+                ],
+				"title": [
+                    {
+                        "text": "100% stacked Column Chart"
+                    }
+                ],
+				"legend": [
+					{
+						"show": false,
+						"position": "Top",
+						"showTitle": false,
+						"labelColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0.60
+                                        }
+                                    }
+                                }
+                            }
+							}
+						}
+				],
+                "valueAxis": [
+                    {
+                        "showAxisTitle": false,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": -0.1
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "gridlineShow": true,
+                        "gridlineStyle": "dotted",
+                        "show": false,
+                        "labelDisplayUnits": 1,
+                        "gridlineDashCap": "round"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        },
+		"lineChart": {
+			"*": {
+				"title": [
+					{
+						"text": "line Chart"
+					}
+				]
+			}
+		},
+		"areaChart": {
+			"*": {
+				"title": [
+					{
+						"text": "area Chart"
+					}
+				]
+			}
+		},
+		"stackedAreaChart": {
+			"*": {
+				"title": [
+					{
+						"text": "stacked Area Chart"
+					}
+				]
+			}
+		},
+		"barChart": {
+			"*": {
+				"title": [
+					{
+						"text": "stacked Bar Chart"
+					}
+				]
+			}
+		},
+		"columnChart": {
+			"*": {
+				"title": [
+					{
+						"text": "stacked Column Chart"
+					}
+				]
+			}
+		},
+		"lineStackedColumnComboChart": {
+			"*": {
+				"title": [
+					{
+						"text": "line stacked Combo Chart"
+					}
+				]
+			}
+		},
+		"lineClusteredColumnComboChart": {
+			"*": {
+				"title": [
+					{
+						"text": "line clustered Combo Chart"
+					}
+				]
+			}
+		},
+		"ribbonChart": {
+			"*": {
+				"title": [
+					{
+						"text": "Ribbon Chart"
+					}
+				],
+				"ribbonChart": [
+					{
+					"seriesGapRatio": 15,
+					"colorBands": true,
+					"bandsTransparency": 20,
+					"showBorder": true
+					}
+				]
+			}
+		},
+		"waterfallChart": {
+			"*": {
+				"title": [
+					{
+						"text": "Waterfall Chart"
+					}
+				], 
+				"sentimentColors": [
+                    {
+                        "decreaseFill": {
+                            "solid": {
+                                "color": "#{themecolor9}"
+                            }
+                        },
+                        "increaseFill": {
+                            "solid": {
+                                "color": "#{themecolor10}"
+                            }
+                        },
+                        "otherFill": {
+                            "solid": {
+                                "color": "#{themecolor11}"
+                            }
+                        },
+                        "totalFill": {
+                            "solid": {
+                                "color": "#{themecolor1}"
+                            }
+                        }
+                    }
+                ]
+			}
+		},
 		"page": {
             "*": {
                 "background": [
