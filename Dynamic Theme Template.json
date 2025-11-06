@@ -580,54 +580,26 @@
                         "show": false
                     }
                 ],
-                "sentimentColors": [
+				"sentimentColors": [
                     {
                         "decreaseFill": {
                             "solid": {
-                                "color": {
-                                    "expr": {
-                                        "ThemeDataColor": {
-                                            "ColorId": 10,
-                                            "Percent": 0
-                                        }
-                                    }
-                                }
+                                "color": "#{themecolor9}"
                             }
                         },
                         "increaseFill": {
                             "solid": {
-                                "color": {
-                                    "expr": {
-                                        "ThemeDataColor": {
-                                            "ColorId": 11,
-                                            "Percent": 0
-                                        }
-                                    }
-                                }
+                                "color": "#{themecolor10}"
                             }
                         },
                         "otherFill": {
                             "solid": {
-                                "color": {
-                                    "expr": {
-                                        "ThemeDataColor": {
-                                            "ColorId": 12,
-                                            "Percent": 0
-                                        }
-                                    }
-                                }
+                                "color": "#{themecolor11}"
                             }
                         },
                         "totalFill": {
                             "solid": {
-                                "color": {
-                                    "expr": {
-                                        "ThemeDataColor": {
-                                            "ColorId": 2,
-                                            "Percent": 0
-                                        }
-                                    }
-                                }
+                                "color": "#{themecolor1}"
                             }
                         }
                     }
@@ -3055,7 +3027,282 @@
                 ]
 			}
 		},
-		"page": {
+		"funnel": {
+		  "*": {
+			"title": [
+			  {
+				"text": "funnel Chart"
+			  }
+			],
+			"labels": [
+				{
+						"show": true,
+						"color": {
+						  "solid": {
+							"color": {
+							  "expr": {
+								"ThemeDataColor": {
+								  "ColorId": 0,
+								  "Percent": 0
+								}
+							  }
+							}
+						  }
+						},
+						"labelDisplayUnits": 0,
+						"labelPrecision": 1,
+						"labelPosition": "InsideCenter"
+				}
+			],
+			"percentBarLabel": [
+			  {
+				"show": true,
+				"color": {
+				  "solid": {
+					"color": {
+					  "expr": {
+						"ThemeDataColor": {
+						  "ColorId": 2,
+						  "Percent": 0
+						}
+					  }
+					}
+				  }
+				}
+			  }
+			]
+		  }
+		},
+		"pieChart": {
+			"*": {
+				"title": [
+					{
+						"text": "pie Chart"
+					}
+				]
+			}
+		},	
+		"donutChart": {
+			"*": {
+				"title": [
+					{
+						"text": "donut Chart"
+					}
+				]
+			}
+		},	
+		"treeMap": {
+			"*": {
+				"title": [
+					{
+						"text": "heat Map"
+					}
+				]
+			}
+		}, 
+		"gauge": {
+            "*": {
+				"title": [
+					{
+						"text": "Gauge",
+						"show": false
+					}
+				],
+                "axis": [
+                    {
+                        "max": 1,
+                        "min": 0
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "fill": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "target": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": -0.1
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "labels": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 10,
+                        "labelDisplayUnits": 0,
+                        "labelPrecision": 0,
+                        "show": true
+                    }
+                ]
+            }
+        },        
+        "multiRowCard": {
+            "*": {
+                "title": [
+                    {
+                        "text": "Multi-Row Card",
+                        "show": false
+                    }
+                ],				
+				"categoryLabels": [
+					{
+						"color": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": 0.60
+                                        }
+                                    }
+                                }
+                            }
+                        }
+					}
+				],
+                "card": [
+                    {
+                        "barShow": true,
+                        "barColor": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 2,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "barWeight": 2
+                    }
+                ]
+            }
+        }, 
+		"kpi": {
+		  "*": {
+			"title": [
+			  {
+				"text": "KPI",
+				"show": false
+			  }
+			],
+			"indicator": [
+			  {
+				"indicatorDisplayUnits": 0,
+				"indicatorPrecision": 1,
+				"showIcon": true,
+				"iconSize": 15,
+				"horizontalAlignment": "left",
+				"verticalAlignment": "top"
+			  }
+			],
+			"trendline": [
+			  {
+				"show": true
+			  }
+			],
+			"status": [
+			  {
+				"direction": "Positive",
+				"transparency": 100,
+				"goodColor": {
+				  "solid": {
+					"color": "#006100"
+				  }
+				},
+				"neutralColor": {
+				  "solid": {
+					"color": "#9C6500"
+				  }
+				},
+				"badColor": {
+				  "solid": {
+					"color": "#9C0006"
+				  }
+				}
+			  }
+			],
+			 "date": [
+			  {
+				"showDate": true, 
+				"dateColor": {
+				  "solid": {
+					"color": {
+					  "expr": {
+						"ThemeDataColor": {
+						  "ColorId": 1,
+						  "Percent": 0.8
+						}
+					  }
+					}
+				  }
+				}
+			  }
+			],
+			"goals": [
+			  {
+				"showGoal": true,
+				"goalFontColor": {
+				  "solid": {
+					"color": {
+					  "expr": {
+						"ThemeDataColor": {
+						  "ColorId": 1,
+						  "Percent": 0.6
+						}
+					  }
+					}
+				  }
+				},
+				"showDistance": true,
+				"distanceFontColor": {
+				  "solid": {
+					"color": {
+					  "expr": {
+						"ThemeDataColor": {
+						  "ColorId": 1,
+						  "Percent": 0.6
+						}
+					  }
+					}
+				  }
+				}
+			  }
+			]
+		  }
+		},
+    "page": {
             "*": {
                 "background": [
                     {
@@ -3064,7 +3311,7 @@
 					]
 				}
 			}
-	},
+	    },
    "icons": [
         {
             "description": "Signal Cellular 0Bar",
