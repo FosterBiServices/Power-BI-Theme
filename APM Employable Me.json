@@ -1,0 +1,3402 @@
+{
+  "name": "FOSTER BI SERVICES",
+  "dataColors": [
+    "#1d4f91",
+    "#F89D24",
+    "#912f46",
+    "#007C91",
+    "#9E79B9",
+    "#56B4E9",
+    "#8C8C8C",
+    "#009E73",
+    "#9C0006",
+    "#006100",
+    "#9C6500",
+    "#FFC7CE",
+    "#C6EFCE",
+    "#FFEB9C",
+    "#999999",
+    "#e6e6e6",
+    "#5f6b6d"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "general": [
+          {
+            "responsive": true,
+            "keepLayerOrder": true
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "show": false,
+            "transparency": 100
+          }
+        ],
+        "title": [
+          {
+            "alignment": "left",
+            "bold": true,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontWeight": "bold",
+            "fontSize": 18,
+            "heading": "Heading4",
+            "text": "Title Goes Here",
+            "show": true
+          }
+        ],
+        "subTitle": [
+          {
+            "alignment": "left",
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.97
+                    }
+                  }
+                }
+              }
+            },
+            "radius": 2
+          }
+        ],
+        "divider": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.8
+                    }
+                  }
+                }
+              }
+            },
+            "radius": 1
+          }
+        ],
+        "dropShadow": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            },
+            "position": "Outer",
+            "preset": "BottomRight",
+            "show": false
+          }
+        ],
+        "accentBar": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.6
+                    }
+                  }
+                }
+              }
+            },
+            "position": "Top",
+            "show": false,
+            "width": 5
+          }
+        ],
+        "dataLabels": [
+          {
+            "dataLabelFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "dataLabelFontFamily": "Segoe UI",
+            "dataLabelFontSize": 10,
+            "dataLabelDisplayUnits": 2,
+            "show": true
+          }
+        ],
+        "legend": [
+          {
+            "show": false,
+            "position": "Top",
+            "showTitle": false,
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false,
+            "gridlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "gridlineShow": true,
+            "gridlineStyle": "dotted",
+            "show": false,
+            "labelDisplayUnits": 1,
+            "gridlineDashCap": "round"
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": 10,
+            "fontFamily": "Segoe UI",
+            "show": true,
+            "labelDisplayUnits": 0,
+            "labelPrecision": 1
+          }
+        ],
+        "displayArea": [
+          {
+            "verticalAlignment": "Middle"
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Available",
+            "backgroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "border": true,
+            "borderColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "foregroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "inputBoxColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.3
+                    }
+                  }
+                }
+              }
+            },
+            "textSize": 10,
+            "transparency": 0
+          },
+          {
+            "$id": "Applied",
+            "textSize": 10
+          }
+        ],
+        "filters": [
+          {
+            "filteredToUniqueValue": true
+          }
+        ],
+        "plotAreaShading": [
+          {
+            "lowerShadingColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.75
+                    }
+                  }
+                }
+              }
+            },
+            "upperShadingColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "section": [
+          {
+            "verticalAlignment": "Middle"
+          }
+        ],
+        "total": [
+          {
+            "applyToHeaders": true,
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.8
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ],
+        "totals": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.97
+                    }
+                  }
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "labelDisplayUnits": 1,
+            "show": true
+          }
+        ],
+        "value": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "labelDisplayUnits": 1,
+            "labelPrecision": 0,
+            "show": true,
+            "showBlankAs": "--"
+          }
+        ],
+        "visualTooltip": [
+          {
+            "actionFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "show": true,
+            "themedBackground": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.9
+                    }
+                  }
+                }
+              }
+            },
+            "themedTitleFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.1
+                    }
+                  }
+                }
+              }
+            },
+            "themedValueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.1
+                    }
+                  }
+                }
+              }
+            },
+            "titleFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "type": "default",
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "text": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": 10
+          }
+        ],
+        "smallMultiplesGrid": [
+          {
+            "gridlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.5
+                    }
+                  }
+                }
+              }
+            },
+            "gridlineRegion": "innerHorizontal",
+            "gridlineStyle": "dotted",
+            "gridlineShow": true,
+            "gridlineWidth": 3
+          }
+        ],
+        "personalizeVisual": [
+          {
+            "show": false
+          }
+        ],
+        "sentimentColors": [
+          {
+            "decreaseFill": {
+              "solid": {
+                "color": "#9C0006"
+              }
+            },
+            "increaseFill": {
+              "solid": {
+                "color": "#006100"
+              }
+            },
+            "otherFill": {
+              "solid": {
+                "color": "#9C6500"
+              }
+            },
+            "totalFill": {
+              "solid": {
+                "color": "#1d4f91"
+              }
+            }
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "headerSize": 10,
+            "checkboxAndApplyColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.7
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "themedBackground": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.85
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "show": false,
+            "transparency": 100
+          }
+        ],
+        "title": [
+          {
+            "text": "Matrix",
+            "show": true
+          }
+        ],
+        "subTitle": [
+          {
+            "alignment": "left",
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.97
+                    }
+                  }
+                }
+              }
+            },
+            "radius": 2
+          }
+        ],
+        "divider": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.8
+                    }
+                  }
+                }
+              }
+            },
+            "radius": 1
+          }
+        ],
+        "dropShadow": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            },
+            "position": "Outer",
+            "preset": "BottomRight",
+            "show": false
+          }
+        ],
+        "columnFormatting": [
+          {
+            "alignment": "Center",
+            "styleHeader": true,
+            "styleSubtotals": true,
+            "styleTotal": true,
+            "styleValues": true
+          }
+        ],
+        "columnHeaders": [
+          {
+            "alignment": "Auto",
+            "autoSizeColumnWidth": true,
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "titleAlignment": "Auto"
+          }
+        ],
+        "columnTotal": [
+          {
+            "applyToHeaders": false,
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.97
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ],
+        "columnWidth": [
+          {
+            "value": 25
+          }
+        ],
+        "grid": [
+          {
+            "gridHorizontal": true,
+            "gridHorizontalColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "gridHorizontalWeight": 1,
+            "gridVertical": false,
+            "gridVerticalColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "gridVerticalWeight": 1,
+            "textSize": 10,
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "outline": "None"
+          }
+        ],
+        "rowHeaders": [
+          {
+            "alignment": "Left",
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "expandCompositeHierarchy": true,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "showExpandCollapseButtons": true,
+            "stepped": true,
+            "steppedLayoutIndentation": 15,
+            "wordWrap": true
+          }
+        ],
+        "rowTotal": [
+          {
+            "applyToHeaders": true,
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.97
+                    }
+                  }
+                }
+              }
+            },
+            "bold": true,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ],
+        "sparklines": [
+          {
+            "chartType": "line",
+            "dataColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "markerColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "markerShape": "square",
+            "markerSize": 1,
+            "strokeWidth": 1
+          }
+        ],
+        "subTotals": [
+          {
+            "applyToHeaders": true,
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.97
+                    }
+                  }
+                }
+              }
+            },
+            "columnSubtotals": true,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "levelSubtotalEnabled": true,
+            "outline": "None",
+            "perColumnLevel": true,
+            "perRowLevel": true,
+            "rowSubtotals": true,
+            "rowSubtotalsPosition": "Bottom"
+          }
+        ],
+        "total": [
+          {
+            "applyToHeaders": true,
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.93
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "outline": "None"
+          }
+        ],
+        "values": [
+          {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "bandedRowHeaders": false,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "wordWrap": true
+          }
+        ],
+        "visualTooltip": [
+          {
+            "actionFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontWeight": "bold",
+            "fontSize": 10,
+            "show": true,
+            "themedBackground": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "themedTitleFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "themedValueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "titleFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "type": "Default",
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "visualHeader": [
+          {
+            "showFilterRestatementButton": true,
+            "showFocusModeButton": true,
+            "showOptionsMenu": true,
+            "showSeeDataLayoutToggleButton": true
+          }
+        ],
+        "blankRows": [
+          {
+            "blankRowColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "borderColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "borderTransparency": 100,
+            "showBlankRows": false,
+            "showBorder": false
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "general": [
+          {
+            "responsive": true,
+            "keepLayerOrder": true
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontWeight": "bold",
+            "fontSize": 24,
+            "labelDisplayUnits": 0,
+            "preserveWhitespace": true
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "show": false
+          }
+        ],
+        "wordWrap": [
+          {
+            "show": true
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "show": false,
+            "transparency": 100
+          }
+        ],
+        "title": [
+          {
+            "text": "Card",
+            "show": false
+          }
+        ],
+        "subTitle": [
+          {
+            "alignment": "left",
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.97
+                    }
+                  }
+                }
+              }
+            },
+            "radius": 2
+          }
+        ],
+        "divider": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.8
+                    }
+                  }
+                }
+              }
+            },
+            "radius": 1
+          }
+        ],
+        "dropShadow": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            },
+            "position": "Outer",
+            "preset": "BottomRight",
+            "show": false
+          }
+        ],
+        "padding": [
+          {
+            "bottom": 4,
+            "left": 4,
+            "right": 4,
+            "top": 4
+          }
+        ],
+        "visualLink": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "accentBar": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "position": "Top",
+            "show": true,
+            "width": 5,
+            "$id": "default"
+          }
+        ],
+        "label": [
+          {
+            "alignBaselines": true,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "position": "aboveValue",
+            "show": true,
+            "textWrap": true,
+            "$id": "default"
+          }
+        ],
+        "layout": [
+          {
+            "alignment": "center",
+            "columnCount": 3,
+            "orientation": 2,
+            "rowCount": 1,
+            "$id": "default"
+          }
+        ],
+        "shadowCustom": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "position": "Outer",
+            "shadowPositionPreset": "bottomRight",
+            "$id": "default"
+          }
+        ],
+        "shapeCustomRectangle": [
+          {
+            "rectangleRoundedCurve": 10,
+            "tileShape": "rectangleRounded",
+            "$id": "default"
+          }
+        ],
+        "spacing": [
+          {
+            "verticalSpacing": 5,
+            "$id": "default"
+          }
+        ],
+        "value": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 18,
+            "horizontalAlignment": "center",
+            "labelDisplayUnits": 1,
+            "showBlankAs": "-",
+            "$id": "default"
+          }
+        ],
+        "visualTooltip": [
+          {
+            "show": false,
+            "$id": "default"
+          }
+        ],
+        "title": [
+          {
+            "show": false,
+            "text": "Card"
+          }
+        ]
+      }
+    },
+    "pageNavigator": {
+      "*": {
+        "title": [
+          {
+            "alignment": "left",
+            "bold": true,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontWeight": "bold",
+            "fontSize": 10,
+            "heading": "Heading4",
+            "text": "Page Navigaion",
+            "show": false
+          }
+        ],
+        "text": [
+          {
+            "show": true
+          },
+          {
+            "$id": "default",
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "hover",
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "press",
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "selected",
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "fill": [
+          {
+            "show": true
+          },
+          {
+            "$id": "default",
+            "fillcolor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.98
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "hover",
+            "fillcolor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "press",
+            "fillcolor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.4
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "selected",
+            "fillcolor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.8
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "outline": [
+          {
+            "show": false
+          },
+          {
+            "$id": "default",
+            "linecolor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "hover",
+            "linecolor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.8
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "selected",
+            "linecolor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.8
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "shape": [
+          {
+            "$id": "default",
+            "roundEdge": 5,
+            "tileShape": "rectangleRounded"
+          }
+        ],
+        "padding": [
+          {
+            "top": 10,
+            "bottom": 10,
+            "left": 10,
+            "right": 10
+          }
+        ]
+      }
+    },
+    "bookmarkNavigator": {
+      "*": {
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "alignment": "left",
+            "bold": true,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontWeight": "bold",
+            "fontSize": 10,
+            "heading": "Heading4",
+            "text": "bookmark Navigaion",
+            "show": false
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "text": [
+          {
+            "show": true
+          },
+          {
+            "$id": "default",
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "hover",
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "press",
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "selected",
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "fill": [
+          {
+            "show": true
+          },
+          {
+            "$id": "default",
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "hover",
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.92
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "press",
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.4
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "selected",
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "outline": [
+          {
+            "show": false
+          },
+          {
+            "$id": "default",
+            "linecolor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "hover",
+            "linecolor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.8
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "$id": "selected",
+            "linecolor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.8
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "shape": [
+          {
+            "$id": "default",
+            "roundEdge": 5,
+            "tileShape": "rectangleRounded"
+          }
+        ],
+        "padding": [
+          {
+            "top": 10,
+            "bottom": 10,
+            "left": 10,
+            "right": 10
+          }
+        ],
+        "bookmarks": [
+          {
+            "allowDeselection": false
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "show": false,
+            "transparency": 100
+          }
+        ],
+        "title": [
+          {
+            "text": "slicer",
+            "show": false
+          }
+        ],
+        "subTitle": [
+          {
+            "alignment": "left",
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 8,
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.97
+                    }
+                  }
+                }
+              }
+            },
+            "radius": 2
+          }
+        ],
+        "divider": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.8
+                    }
+                  }
+                }
+              }
+            },
+            "radius": 1
+          }
+        ],
+        "dropShadow": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "position": "Outer",
+            "preset": "BottomRight",
+            "show": false
+          }
+        ],
+        "header": [
+          {
+            "bold": false,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "italic": false,
+            "outline": "None",
+            "show": true,
+            "showRestatement": false,
+            "textSize": 10,
+            "underline": false
+          }
+        ],
+        "items": [
+          {
+            "accessibilityContrastProperties": true,
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "expandCollapseToggleType": 1,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "italic": false,
+            "outline": "None",
+            "steppedLayoutIndentation": 10,
+            "textSize": 10,
+            "underline": false
+          }
+        ],
+        "lockAspect": [
+          {
+            "show": false
+          }
+        ],
+        "pendingChangesIcon": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "position": "below",
+            "show": true,
+            "size": 10
+          }
+        ],
+        "searchBox": [
+          {
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "borderColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "outline": "BottomOnly",
+            "outlineStyle": 1
+          }
+        ],
+        "selection": [
+          {
+            "selectAllCheckboxEnabled": false,
+            "singleSelect": true,
+            "strictSingleSelect": false
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "title": [
+          {
+            "text": "Table"
+          }
+        ],
+        "columnFormatting": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "labelDisplayUnits": 1,
+            "styleHeader": true,
+            "styleTotal": true,
+            "styleValues": true
+          }
+        ],
+        "columnHeaders": [
+          {
+            "alignment": "Auto",
+            "autoSizeColumnWidth": true,
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ],
+        "columnWidth": [
+          {
+            "value": 25
+          }
+        ],
+        "grid": [
+          {
+            "gridHorizontalColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "gridHorizontalWeight": 1,
+            "gridVerticalColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "gridVerticalWeight": 1,
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "outlineStyle": 1,
+            "outlineWeight": 1,
+            "rowPadding": 5,
+            "textSize": 10
+          }
+        ],
+        "sparklines": [
+          {
+            "chartType": "line",
+            "dataColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "markerColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "markerShape": "circle",
+            "markerSize": 2,
+            "strokeWidth": 1
+          }
+        ],
+        "total": [
+          {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.97
+                    }
+                  }
+                }
+              }
+            },
+            "bold": true,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "totals": true,
+            "underline": false
+          }
+        ],
+        "values": [
+          {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "title": [
+          {
+            "text": "clustered Column Chart"
+          }
+        ],
+        "legend": [
+          {
+            "show": false,
+            "position": "Top",
+            "showTitle": false,
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false,
+            "gridlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "gridlineShow": true,
+            "gridlineStyle": "dotted",
+            "show": false,
+            "gridlineDashCap": "round",
+            "labelPrecision": 1,
+            "labelDisplayUnits": 1
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "labelDisplayUnits": 1,
+            "labelPrecision": 1,
+            "labelOrientation": 1,
+            "labelPosition": "OutsideEnd",
+            "enableBackground": true,
+            "backgroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backgroundTransparency": 30
+          }
+        ]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "title": [
+          {
+            "text": "clustered Bar Chart"
+          }
+        ],
+        "legend": [
+          {
+            "show": false,
+            "position": "Top",
+            "showTitle": false,
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false,
+            "gridlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "gridlineShow": true,
+            "gridlineStyle": "dotted",
+            "show": false,
+            "gridlineDashCap": "round",
+            "labelPrecision": 1,
+            "labelDisplayUnits": 1
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "labelDisplayUnits": 1,
+            "labelPrecision": 1,
+            "labelOrientation": 1,
+            "labelPosition": "OutsideEnd",
+            "enableBackground": true,
+            "backgroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "backgroundTransparency": 30
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "title": [
+          {
+            "text": "stacked Column Chart"
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "title": [
+          {
+            "text": "stacked Bar Chart"
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedBarChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "title": [
+          {
+            "text": "100% stacked Bar Chart"
+          }
+        ],
+        "legend": [
+          {
+            "show": false,
+            "position": "Top",
+            "showTitle": false,
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false,
+            "gridlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "gridlineShow": true,
+            "gridlineStyle": "dotted",
+            "show": false,
+            "labelDisplayUnits": 1,
+            "gridlineDashCap": "round"
+          }
+        ],
+        "labels": [
+          {
+            "show": true
+          }
+        ]
+      }
+    },
+    "hundredPercentStackedColumnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "title": [
+          {
+            "text": "100% stacked Column Chart"
+          }
+        ],
+        "legend": [
+          {
+            "show": false,
+            "position": "Top",
+            "showTitle": false,
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false,
+            "gridlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            },
+            "gridlineShow": true,
+            "gridlineStyle": "dotted",
+            "show": false,
+            "labelDisplayUnits": 1,
+            "gridlineDashCap": "round"
+          }
+        ],
+        "labels": [
+          {
+            "show": true
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "title": [
+          {
+            "text": "line Chart"
+          }
+        ]
+      }
+    },
+    "areaChart": {
+      "*": {
+        "title": [
+          {
+            "text": "area Chart"
+          }
+        ]
+      }
+    },
+    "stackedAreaChart": {
+      "*": {
+        "title": [
+          {
+            "text": "stacked Area Chart"
+          }
+        ]
+      }
+    },
+    "lineStackedColumnComboChart": {
+      "*": {
+        "title": [
+          {
+            "text": "line stacked Combo Chart"
+          }
+        ]
+      }
+    },
+    "lineClusteredColumnComboChart": {
+      "*": {
+        "title": [
+          {
+            "text": "line clustered Combo Chart"
+          }
+        ]
+      }
+    },
+    "ribbonChart": {
+      "*": {
+        "title": [
+          {
+            "text": "Ribbon Chart"
+          }
+        ],
+        "ribbonChart": [
+          {
+            "seriesGapRatio": 15,
+            "colorBands": true,
+            "bandsTransparency": 20,
+            "showBorder": true
+          }
+        ]
+      }
+    },
+    "waterfallChart": {
+      "*": {
+        "title": [
+          {
+            "text": "Waterfall Chart"
+          }
+        ],
+        "sentimentColors": [
+          {
+            "decreaseFill": {
+              "solid": {
+                "color": "#9C0006"
+              }
+            },
+            "increaseFill": {
+              "solid": {
+                "color": "#006100"
+              }
+            },
+            "otherFill": {
+              "solid": {
+                "color": "#9C6500"
+              }
+            },
+            "totalFill": {
+              "solid": {
+                "color": "#1d4f91"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "funnel": {
+      "*": {
+        "title": [
+          {
+            "text": "funnel Chart"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "labelDisplayUnits": 0,
+            "labelPrecision": 1,
+            "labelPosition": "InsideCenter"
+          }
+        ],
+        "percentBarLabel": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "title": [
+          {
+            "text": "pie Chart"
+          }
+        ]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "title": [
+          {
+            "text": "donut Chart"
+          }
+        ]
+      }
+    },
+    "treeMap": {
+      "*": {
+        "title": [
+          {
+            "text": "heat Map"
+          }
+        ]
+      }
+    },
+    "gauge": {
+      "*": {
+        "title": [
+          {
+            "text": "Gauge",
+            "show": false
+          }
+        ],
+        "axis": [
+          {
+            "max": 1,
+            "min": 0
+          }
+        ],
+        "dataPoint": [
+          {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "target": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "labelDisplayUnits": 0,
+            "labelPrecision": 0,
+            "show": true
+          }
+        ]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "title": [
+          {
+            "text": "Multi-Row Card",
+            "show": false
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "card": [
+          {
+            "barShow": true,
+            "barColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "barWeight": 2
+          }
+        ]
+      }
+    },
+    "kpi": {
+      "*": {
+        "title": [
+          {
+            "text": "KPI",
+            "show": false
+          }
+        ],
+        "indicator": [
+          {
+            "indicatorDisplayUnits": 0,
+            "indicatorPrecision": 1,
+            "showIcon": true,
+            "iconSize": 15,
+            "horizontalAlignment": "left",
+            "verticalAlignment": "top"
+          }
+        ],
+        "trendline": [
+          {
+            "show": true
+          }
+        ],
+        "status": [
+          {
+            "direction": "Positive",
+            "transparency": 100,
+            "goodColor": {
+              "solid": {
+                "color": "#006100"
+              }
+            },
+            "neutralColor": {
+              "solid": {
+                "color": "#9C6500"
+              }
+            },
+            "badColor": {
+              "solid": {
+                "color": "#9C0006"
+              }
+            }
+          }
+        ],
+        "date": [
+          {
+            "showDate": true,
+            "dateColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.8
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "goals": [
+          {
+            "showGoal": true,
+            "goalFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            },
+            "showDistance": true,
+            "distanceFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  },
+  "icons": [
+    {
+      "description": "Star Empty",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z\"></path></svg>"
+    },
+    {
+      "description": "Star Half",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z\"></path></svg>"
+    },
+    {
+      "description": "Star Full",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>"
+    },
+    {
+      "description": "Arrow Circle Down Good",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%239C0006\" fill=\"%23006100\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-143.6-28.9L288 302.6V120c0-13.3-10.7-24-24-24h-16c-13.3 0-24 10.7-24 24v182.6l-72.4-75.5c-9.3-9.7-24.8-9.9-34.3-.4l-10.9 11c-9.4 9.4-9.4 24.6 0 33.9L239 404.3c9.4 9.4 24.6 9.4 33.9 0l132.7-132.7c9.4-9.4 9.4-24.6 0-33.9l-10.9-11c-9.5-9.5-25-9.3-34.3.4z\"></path></svg>"
+    },
+    {
+      "description": "Arrow Circle Down Bad",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%239C0006\" fill=\"%239C0006\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-143.6-28.9L288 302.6V120c0-13.3-10.7-24-24-24h-16c-13.3 0-24 10.7-24 24v182.6l-72.4-75.5c-9.3-9.7-24.8-9.9-34.3-.4l-10.9 11c-9.4 9.4-9.4 24.6 0 33.9L239 404.3c9.4 9.4 24.6 9.4 33.9 0l132.7-132.7c9.4-9.4 9.4-24.6 0-33.9l-10.9-11c-9.5-9.5-25-9.3-34.3.4z\"></path></svg>"
+    },
+    {
+      "description": "Arrow Circle Up Good",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23006100\" fill=\"%23006100\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm143.6 28.9l72.4-75.5V392c0 13.3 10.7 24 24 24h16c13.3 0 24-10.7 24-24V209.4l72.4 75.5c9.3 9.7 24.8 9.9 34.3.4l10.9-11c9.4-9.4 9.4-24.6 0-33.9L273 107.7c-9.4-9.4-24.6-9.4-33.9 0L106.3 240.4c-9.4 9.4-9.4 24.6 0 33.9l10.9 11c9.6 9.5 25.1 9.3 34.4-.4z\"></path></svg>"
+    },
+    {
+      "description": "Arrow Circle Up Bad",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%23006100\" fill=\"%239C0006\" stroke-width=\"0\" viewBox=\"0 0 512 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm143.6 28.9l72.4-75.5V392c0 13.3 10.7 24 24 24h16c13.3 0 24-10.7 24-24V209.4l72.4 75.5c9.3 9.7 24.8 9.9 34.3.4l10.9-11c9.4-9.4 9.4-24.6 0-33.9L273 107.7c-9.4-9.4-24.6-9.4-33.9 0L106.3 240.4c-9.4 9.4-9.4 24.6 0 33.9l10.9 11c9.6 9.5 25.1 9.3 34.4-.4z\"></path></svg>"
+    },
+    {
+      "description": "Angle Right",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" viewBox=\"0 0 256 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z\"></path></svg>"
+    },
+    {
+      "description": "Angle Left",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" viewBox=\"0 0 256 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z\"></path></svg>"
+    },
+    {
+      "description": "Angle Up Good",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%23006100\" stroke-width=\"0\" viewBox=\"0 0 320 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\"></path></svg>"
+    },
+    {
+      "description": "Angle Up Bad",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%239C0006\" stroke-width=\"0\" viewBox=\"0 0 320 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\"></path></svg>"
+    },
+    {
+      "description": "Angle Down Good",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%23006100\" stroke-width=\"0\" viewBox=\"0 0 320 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z\"></path></svg>"
+    },
+    {
+      "description": "Angle Down Bad",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%239C0006\" stroke-width=\"0\" viewBox=\"0 0 320 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z\"></path></svg>"
+    },
+    {
+      "description": "People",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z\"></path></svg>"
+    },
+    {
+      "description": "People Outline",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M16.5 13c-1.2 0-3.07.34-4.5 1-1.43-.67-3.3-1-4.5-1C5.33 13 1 14.08 1 16.25V19h22v-2.75c0-2.17-4.33-3.25-6.5-3.25zm-4 4.5h-10v-1.25c0-.54 2.56-1.75 5-1.75s5 1.21 5 1.75v1.25zm9 0H14v-1.25c0-.46-.2-.86-.52-1.22.88-.3 1.96-.53 3.02-.53 2.44 0 5 1.21 5 1.75v1.25zM7.5 12c1.93 0 3.5-1.57 3.5-3.5S9.43 5 7.5 5 4 6.57 4 8.5 5.57 12 7.5 12zm0-5.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm9 5.5c1.93 0 3.5-1.57 3.5-3.5S18.43 5 16.5 5 13 6.57 13 8.5s1.57 3.5 3.5 3.5zm0-5.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z\"></path></svg>"
+    },
+    {
+      "description": "Caret Square Down Bad",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%239C0006\" stroke-width=\"0\" viewBox=\"0 0 448 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zM92.5 220.5l123 123c4.7 4.7 12.3 4.7 17 0l123-123c7.6-7.6 2.2-20.5-8.5-20.5H101c-10.7 0-16.1 12.9-8.5 20.5z\"></path></svg>"
+    },
+    {
+      "description": "Caret Square Down Good",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%23006100\" stroke-width=\"0\" viewBox=\"0 0 448 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zM92.5 220.5l123 123c4.7 4.7 12.3 4.7 17 0l123-123c7.6-7.6 2.2-20.5-8.5-20.5H101c-10.7 0-16.1 12.9-8.5 20.5z\"></path></svg>"
+    },
+    {
+      "description": "Caret Square Up Bad",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%239C0006\" stroke-width=\"0\" viewBox=\"0 0 448 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 432V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48zm355.515-140.485l-123.03-123.03c-4.686-4.686-12.284-4.686-16.971 0L92.485 291.515c-7.56 7.56-2.206 20.485 8.485 20.485h246.059c10.691 0 16.045-12.926 8.486-20.485z\"></path></svg>"
+    },
+    {
+      "description": "Caret Square Up Good",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%23006100\" stroke-width=\"0\" viewBox=\"0 0 448 512\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 432V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48zm355.515-140.485l-123.03-123.03c-4.686-4.686-12.284-4.686-16.971 0L92.485 291.515c-7.56 7.56-2.206 20.485 8.485 20.485h246.059c10.691 0 16.045-12.926 8.486-20.485z\"></path></svg>"
+    },
+    {
+      "description": "Circle Outline",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-circle-outline\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z\"></path></svg>"
+    },
+    {
+      "description": "Circle Slice 1",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-circle-slice-1\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4M12 5C13.93 5 15.68 5.78 16.95 7.05L12 12V5Z\"></path></svg>"
+    },
+    {
+      "description": "Circle Slice 2",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-circle-slice-2\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4M12 5C15.87 5 19 8.13 19 12H12V5Z\"></path></svg>"
+    },
+    {
+      "description": "Circle Slice 3",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-circle-slice-3\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4M12 5C15.87 5 19 8.13 19 12C19 13.93 18.22 15.68 16.95 16.95L12 12V5Z\"></path></svg>"
+    },
+    {
+      "description": "Circle Slice 4",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-circle-slice-4\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4M12 5C15.87 5 19 8.13 19 12C19 15.87 15.87 19 12 19V5Z\"></path></svg>"
+    },
+    {
+      "description": "Circle Slice 5",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-circle-slice-5\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4M12 5C15.87 5 19 8.13 19 12C19 15.87 15.87 19 12 19C10.07 19 8.32 18.22 7.05 16.95L12 12V5Z\"></path></svg>"
+    },
+    {
+      "description": "Circle Slice 6",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-circle-slice-6\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4M12 5C15.87 5 19 8.13 19 12C19 15.87 15.87 19 12 19C8.13 19 5 15.87 5 12H12V5Z\"></path></svg>"
+    },
+    {
+      "description": "Circle Slice 7",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-circle-slice-7\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4M12 5C15.87 5 19 8.13 19 12C19 15.87 15.87 19 12 19C8.13 19 5 15.87 5 12C5 10.07 5.78 8.32 7.05 7.05L12 12V5Z\"></path></svg>"
+    },
+    {
+      "description": "Circle Slice 8",
+      "url": "data:image/svg+xml;utf8,<svg stroke=\"%231d4f91\" fill=\"%231d4f91\" stroke-width=\"0\" version=\"1.1\" id=\"mdi-circle-slice-8\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 5C15.87 5 19 8.13 19 12C19 15.87 15.87 19 12 19C8.13 19 5 15.87 5 12C5 8.13 8.13 5 12 5M12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4Z\"></path></svg>"
+    },
+    {
+      "description": "No Thumbs",
+      "url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='171' height='171' fill='none' viewBox='0 0 171 171'><path fill='%239C6500' d='M14.25 142.5v-114H57v114H14.25Zm57 0v-114h85.5v114h-85.5Z'/></svg>"
+    },
+    {
+      "description": "Thumbs up",
+      "url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='139' fill='none' viewBox='0 0 150 139'><path fill='%23006100' d='M135.375 45.723c3.8 0 7.125 1.425 9.975 4.275 2.85 2.85 4.275 6.175 4.275 9.975v14.25c0 .832-.09 1.722-.271 2.672-.18.95-.446 1.84-.798 2.672l-21.375 50.231c-1.068 2.375-2.85 4.394-5.343 6.057-2.494 1.662-5.107 2.493-7.838 2.493H57c-3.919 0-7.272-1.394-10.06-4.182-2.789-2.788-4.185-6.144-4.19-10.068V51.601c0-1.9.387-3.71 1.161-5.429a15.322 15.322 0 0 1 3.114-4.546L85.678 3.151C87.46 1.49 89.568.48 92.005.123c2.437-.356 4.781.06 7.032 1.247 2.252 1.188 3.886 2.85 4.902 4.988 1.017 2.137 1.224 4.334.62 6.59l-8.015 32.775h38.831ZM14.25 138.348c-3.919 0-7.272-1.394-10.06-4.182C1.4 131.378.004 128.022 0 124.098V59.973c0-3.918 1.397-7.272 4.19-10.06 2.792-2.788 6.146-4.185 10.06-4.19 3.914-.004 7.27 1.392 10.068 4.19 2.797 2.798 4.191 6.151 4.182 10.06v64.125c0 3.919-1.394 7.275-4.182 10.068-2.789 2.793-6.145 4.187-10.068 4.182Z'/></svg>"
+    },
+    {
+      "description": "Thumbs down",
+      "url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='143' fill='none' viewBox='0 0 150 143'><path fill='%239C0006' d='M0 92.625v-31.35L26.006 0h80.869v92.625L57 142.5l-13.181-13.181 9.262-36.694H0Zm121.125 0V0h28.5v92.625h-28.5Z'/></svg>"
+    }
+  ],
+  "textClasses": {
+    "boldLabel": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontWeight": "bold",
+      "fontSize": 10
+    },
+    "callout": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontSize": 16,
+      "fontWeight": "normal"
+    },
+    "dataTitle": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontSize": 10
+    },
+    "header": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontWeight": "bold",
+      "fontSize": 12
+    },
+    "label": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "fontWeight": "normal"
+    },
+    "largeLabel": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontSize": 12
+    },
+    "largeLightLabel": {
+      "color": "#e6e6e6",
+      "fontFace": "Segoe UI",
+      "fontSize": 12
+    },
+    "largeTitle": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontWeight": "bold",
+      "fontSize": 16
+    },
+    "lightLabel": {
+      "color": "#999999",
+      "fontFace": "Segoe UI",
+      "fontSize": 10
+    },
+    "semiboldLabel": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "fontWeight": "normal"
+    },
+    "smallDataLabel": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "fontWeight": "normal"
+    },
+    "smallLabel": {
+      "color": "#e6e6e6",
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "fontWeight": "normal"
+    },
+    "smallLightLabel": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "fontWeight": "normal"
+    },
+    "title": {
+      "color": "#1d4f91",
+      "fontFace": "Segoe UI",
+      "fontSize": 14,
+      "fontWeight": "normal"
+    }
+  },
+  "background": "#FFFFFF",
+  "foreground": "#1d4f91",
+  "foregroundLight": "#e6e6e6",
+  "firstLevelElements": "#e6e6e6",
+  "secondLevelElements": "#5f6b6d"
+}
